@@ -9,12 +9,13 @@ function setup() {
 
 function draw() {
   mappedX = map(mouseX,0, width,0,255);
+  mappedY= map(mouseY,0,height, 50, 200);
   background(mappedX);
   print(mouseX,mouseY);
 
-  noStroke();  
+  noStroke();
   fill(255-mappedX);
-  ellipse(mouseX,mouseY,mappedX,10);
+  ellipse(mouseX,mouseY,mappedY,mappedY);
 
 
 
