@@ -36,7 +36,7 @@ function drawData(data) {
 
     // calcul pour avoir une surface correct  !!
 
-    var ageCorrect = (Math.PI* d2age/2 * d2age/2 )/30;
+    var ageCorrect = (Math.sqrt(d2age/Math.PI*d2age/Math.PI))*3;
     // function debbuger
     // debugger;
 
