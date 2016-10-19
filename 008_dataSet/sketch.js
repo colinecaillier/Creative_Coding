@@ -34,11 +34,17 @@ function drawData(data) {
     var nom = data[index].name;
     var xpos= 100*i;
 
+    // calcul pour avoir une surface correct  !!
+
+    var ageCorrect = (Math.PI* d2age/2 * d2age/2 )/30;
     // function debbuger
     // debugger;
-    fill(255-xpos,0+xpos,255);
+
+    fill(255-ageCorrect*3,255,0+ageCorrect*4);
+    // pour la couleur on peut aussi ajouter une entree ds le fichier json
+
     noStroke();
-    ellipse(xpos,100,d2age,d2age);
+    ellipse(xpos,100,ageCorrect,ageCorrect);
 
     fill(0);
     textSize(15);
