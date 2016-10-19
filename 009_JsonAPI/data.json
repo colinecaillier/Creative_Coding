@@ -1,0 +1,33 @@
+{
+    "person1": {
+        "name": "Morgan",
+        "age": "33",
+        "location": "Zurich",
+        "color" : "#ff0000"
+    },
+    "person2": {
+        "name": "Joss",
+        "age": "42",
+        "location": "Geneva",
+        "color" : "#00ff00 "
+    },
+    "person3": {
+        "name": "Stanley",
+        "age": "66",
+        "location": "New York",
+        "color" : "#0000ff "
+    },
+    "person4": {
+        "name": "Claude",
+        "age": "18",
+        "location": "Paris",
+        "color" : "#ff0000 "
+    },
+
+    "person5": {
+        "name": "Coline",
+        "age": "22",
+        "location": "Toulouse",
+        "color" : "#ff0000 "
+    }
+}
